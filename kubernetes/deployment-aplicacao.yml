@@ -5,11 +5,11 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: aplicacao-noticia-pod
+      name: aplicacao-noticia-pod
   template:
     metadata:
       labels:
-        app: aplicacao-noticia-pod
+        name: aplicacao-noticia-pod
     spec:
       containers:
       - name: container-aplicacao
