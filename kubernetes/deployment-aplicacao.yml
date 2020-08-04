@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: container-aplicacao
-        image: renancso/noticia-alura:v1
+        image: renancso/noticia-alura:v4
         resources:
           limits:
             memory: "128Mi"
