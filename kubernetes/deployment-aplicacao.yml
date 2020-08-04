@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: container-aplicacao
-        image: jnlucas/image-phpmysql:latest
+        image: renancso/noticia-alura:v1
         resources:
           limits:
             memory: "128Mi"
