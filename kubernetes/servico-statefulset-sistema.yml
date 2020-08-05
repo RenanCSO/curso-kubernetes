@@ -7,4 +7,6 @@ spec:
   selector:
     name: aplicacao-sistema-pod-statefulset
   ports:
-  - port: 80
+    - name: http
+      port: 80
+      nodePort: 30047
