@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: servico-sistema-noticia-statefulset
+spec:
+  type: LoadBalancer
+  selector:
+    name: aplicacao-sistema-pod-statefulset
+  ports:
+  - port: 80
