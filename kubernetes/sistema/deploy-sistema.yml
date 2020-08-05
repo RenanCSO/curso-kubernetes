@@ -38,7 +38,7 @@ spec:
     spec:
       containers:
       - name: container-sistema-statefulset
-        image: renancso/noticia-sistema-alura:v1
+        image: renancso/noticia-sistema-alura:v3
         resources:
           limits:
             memory: "128Mi"
